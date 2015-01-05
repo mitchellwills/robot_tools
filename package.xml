@@ -2,7 +2,7 @@
 <package>
   <name>robot_tools</name>
   <version>0.0.0</version>
-  <description>The robot_tools package</description>
+  <description>Shell tools for manipulating ROS robot related configurations</description>
 
   <maintainer email="mwills@wpi.edu">Mitchell Wills</maintainer>
 
@@ -13,6 +13,12 @@
   <author email="mwills@wpi.edu">Mitchell Wills</author>
 
   <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>python</run_depend>
+  <run_depend>python-argparse</run_depend>
+  <run_depend>python-netaddr</run_depend>
+  <run_depend>python-netifaces</run_depend>
+  <run_depend>python-termcolor</run_depend>
+  <run_depend>python-yaml</run_depend>
 
   <export>
   </export>
