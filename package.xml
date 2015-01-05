@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>robot_tools</name>
+  <version>0.0.0</version>
+  <description>The robot_tools package</description>
+
+  <maintainer email="mwills@wpi.edu">Mitchell Wills</maintainer>
+
+  <license>BSD</license>
+
+  <url type="repository">https://github.com/mitchellwills/robot_tools</url>
+
+  <author email="mwills@wpi.edu">Mitchell Wills</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <export>
+  </export>
+</package>
