@@ -85,6 +85,8 @@ def robot():
     config = _load_config()
     if 'recent' in config:
         setup(argparse.Namespace(**config['recent']))
+    else:
+        sys.stderr.write(colored('WARNING:', 'yellow') + ' No recent configuration found \n')
 
 def info(args):
     sys.stderr.write('ROS_MASTER_URI=' + colored(os.environ.get('ROS_MASTER_URI', ''), 'blue', attrs=['bold'])
