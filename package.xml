@@ -8,6 +8,7 @@
 
   <license>BSD</license>
 
+  <url type="bugtracker">https://github.com/mitchellwills/robot_tools/issues</url>
   <url type="repository">https://github.com/mitchellwills/robot_tools</url>
 
   <author email="mwills@wpi.edu">Mitchell Wills</author>
